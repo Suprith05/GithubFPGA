@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_switch_led_control_func_synth.v" \
+"../../../../../Thesis14.srcs/sim_1/new/tb_switch_led_control.v" \
+
+# Do not sort compile order
+nosort
