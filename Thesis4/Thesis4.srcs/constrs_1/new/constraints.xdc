@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN T14 [get_ports gpio1]
+set_property PACKAGE_PIN U12 [get_ports gpio2]
+set_property IOSTANDARD LVCMOS33 [get_ports gpio1]
+set_property IOSTANDARD LVCMOS33 [get_ports gpio2]
+set_property PACKAGE_PIN V17 [get_ports button1]
+set_property PACKAGE_PIN V18 [get_ports button2]
+set_property IOSTANDARD LVCMOS33 [get_ports button1]
+set_property IOSTANDARD LVCMOS33 [get_ports button2]
