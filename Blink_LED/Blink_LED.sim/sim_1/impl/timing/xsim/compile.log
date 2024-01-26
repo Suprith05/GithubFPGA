@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SUPRITH/Blink_LED/Blink_LED.sim/sim_1/impl/timing/xsim/main_file_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_file
+INFO: [VRFC 10-311] analyzing module glbl
