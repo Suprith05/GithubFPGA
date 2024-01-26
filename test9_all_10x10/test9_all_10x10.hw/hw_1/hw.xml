@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2023.2 (64-bit)                                     -->
+<!--                                                                              -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                        -->
+<!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z010_1" gui_info="dashboard1=hw_vios[xc7z010_1/hw_vio_1=VIO_PROBES_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z010_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/design_1_wrapper.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/design_1_wrapper.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/design_1_wrapper.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/vio_0_probe_out0[19:0]" gui_info="hw_vios/hw_vio_1=2_exp"/>
+    <Object name="design_1_i/vio_0_probe_out1[9:0]" gui_info="hw_vios/hw_vio_1=1_exp"/>
+    <Object name="design_1_i/vio_0_probe_out2" gui_info="hw_vios/hw_vio_1=0"/>
+  </ObjectList>
+  <ObjectList object_type="hw_vio" gui_info="">
+    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	859	Name	0	2147483647	15	457	457	Value	1	2147483647	15	152	152	Activity	2	2147483647	15	71	71	Direction	3	2147483647	15	84	84	VIO	4	2147483647	15	95	95			1	6	1	Name	Value	Activity	Direction	VIO"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value="0.OutputDisplay:Toggle;|1.OutputDisplay:Toggle;|2.OutputDisplay:Toggle;|3.OutputDisplay:Toggle;|4.OutputDisplay:Toggle;|5.OutputDisplay:Toggle;|6.OutputDisplay:Toggle;|7.OutputDisplay:Toggle;|8.OutputDisplay:Toggle;|9.OutputDisplay:Toggle;|10.OutputDisplay:Toggle;|11.OutputDisplay:Toggle;|12.OutputDisplay:Toggle;|13.OutputDisplay:Toggle;|14.OutputDisplay:Toggle;|15.OutputDisplay:Toggle;|16.OutputDisplay:Toggle;|17.OutputDisplay:Toggle;|18.OutputDisplay:Toggle;|19.OutputDisplay:Toggle;"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="55557"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out0[19]"/>
+        <net name="design_1_i/vio_0_probe_out0[18]"/>
+        <net name="design_1_i/vio_0_probe_out0[17]"/>
+        <net name="design_1_i/vio_0_probe_out0[16]"/>
+        <net name="design_1_i/vio_0_probe_out0[15]"/>
+        <net name="design_1_i/vio_0_probe_out0[14]"/>
+        <net name="design_1_i/vio_0_probe_out0[13]"/>
+        <net name="design_1_i/vio_0_probe_out0[12]"/>
+        <net name="design_1_i/vio_0_probe_out0[11]"/>
+        <net name="design_1_i/vio_0_probe_out0[10]"/>
+        <net name="design_1_i/vio_0_probe_out0[9]"/>
+        <net name="design_1_i/vio_0_probe_out0[8]"/>
+        <net name="design_1_i/vio_0_probe_out0[7]"/>
+        <net name="design_1_i/vio_0_probe_out0[6]"/>
+        <net name="design_1_i/vio_0_probe_out0[5]"/>
+        <net name="design_1_i/vio_0_probe_out0[4]"/>
+        <net name="design_1_i/vio_0_probe_out0[3]"/>
+        <net name="design_1_i/vio_0_probe_out0[2]"/>
+        <net name="design_1_i/vio_0_probe_out0[1]"/>
+        <net name="design_1_i/vio_0_probe_out0[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value="0.OutputDisplay:Toggle;|1.OutputDisplay:Toggle;|2.OutputDisplay:Toggle;|3.OutputDisplay:Toggle;|4.OutputDisplay:Toggle;|5.OutputDisplay:Toggle;|6.OutputDisplay:Toggle;|7.OutputDisplay:Toggle;|8.OutputDisplay:Toggle;|9.OutputDisplay:Toggle;"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="3fe"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out1[9]"/>
+        <net name="design_1_i/vio_0_probe_out1[8]"/>
+        <net name="design_1_i/vio_0_probe_out1[7]"/>
+        <net name="design_1_i/vio_0_probe_out1[6]"/>
+        <net name="design_1_i/vio_0_probe_out1[5]"/>
+        <net name="design_1_i/vio_0_probe_out1[4]"/>
+        <net name="design_1_i/vio_0_probe_out1[3]"/>
+        <net name="design_1_i/vio_0_probe_out1[2]"/>
+        <net name="design_1_i/vio_0_probe_out1[1]"/>
+        <net name="design_1_i/vio_0_probe_out1[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value="OutputDisplay:Toggle;"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out2"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

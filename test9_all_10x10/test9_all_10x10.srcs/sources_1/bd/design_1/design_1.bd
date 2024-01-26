@@ -1,0 +1,131 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xCD3D518337C39818",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../test9_all_10x10.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2"
+    },
+    "design_tree": {
+      "vio_0": "",
+      "main_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "hpin_0": {
+        "direction": "O",
+        "left": "19",
+        "right": "0"
+      },
+      "vpin_0": {
+        "direction": "O",
+        "left": "9",
+        "right": "0"
+      }
+    },
+    "components": {
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "ip_revision": "24",
+        "xci_name": "design_1_vio_0_0",
+        "xci_path": "ip\\design_1_vio_0_0\\design_1_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "3"
+          },
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "20"
+          },
+          "C_PROBE_OUT1_WIDTH": {
+            "value": "10"
+          }
+        }
+      },
+      "main_0": {
+        "vlnv": "xilinx.com:module_ref:main:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_main_0_0",
+        "xci_path": "ip\\design_1_main_0_0\\design_1_main_0_0.xci",
+        "inst_hier_path": "main_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "main",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "hpin_in": {
+            "direction": "I",
+            "left": "19",
+            "right": "0"
+          },
+          "vpin_in": {
+            "direction": "I",
+            "left": "9",
+            "right": "0"
+          },
+          "set": {
+            "direction": "I"
+          },
+          "hpin": {
+            "direction": "O",
+            "left": "19",
+            "right": "0"
+          },
+          "vpin": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "vio_0/clk"
+        ]
+      },
+      "main_0_hpin": {
+        "ports": [
+          "main_0/hpin",
+          "hpin_0"
+        ]
+      },
+      "main_0_vpin": {
+        "ports": [
+          "main_0/vpin",
+          "vpin_0"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "main_0/hpin_in"
+        ]
+      },
+      "vio_0_probe_out1": {
+        "ports": [
+          "vio_0/probe_out1",
+          "main_0/vpin_in"
+        ]
+      },
+      "vio_0_probe_out2": {
+        "ports": [
+          "vio_0/probe_out2",
+          "main_0/set"
+        ]
+      }
+    }
+  }
+}
